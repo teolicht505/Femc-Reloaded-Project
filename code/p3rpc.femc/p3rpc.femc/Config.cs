@@ -3313,6 +3313,15 @@ namespace p3rpc.femc.Configuration
         [DisplayName("Social Link: SL Ranking Up Moving Sparkles")]
         public ConfigColor CmmuRankUpMovingSparkles { get; set; } = new ConfigColor(0xFF, 0x66, 0x6E, 0xFF);
 
+        [DisplayName("Battle: Allout background 1")]
+        public ConfigColor AlloutBG1 { get; set; } = new ConfigColor(0x08, 0x00, 0x00, 0xFF);
+
+        [DisplayName("Battle: Allout background 2")]
+        public ConfigColor AlloutBG2 { get; set; } = new ConfigColor(0xCC, 0x00, 0x10, 0xFF);
+
+        [DisplayName("Battle: Allout background 3")]
+        public ConfigColor AlloutBG3 { get; set; } = new ConfigColor(0x66, 0x00, 0x01, 0xFF);
+
         /*[DisplayName("Draw Original Select Box")]
         [Category("Debug")]
         [Display(Order = 1)]
