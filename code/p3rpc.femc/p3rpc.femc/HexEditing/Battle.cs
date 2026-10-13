@@ -13,20 +13,6 @@ namespace p3rpc.femc.HexEditing
 {
     public static class Battle
     {
-        /*
-        private static void ApplyBattleResultUIBase(Config config, string modDirectory)
-        {
-            string filePath = Path.Combine(modDirectory,
-                "UnrealEssentials", "P3R", "Content", "Xrd777",
-                "Blueprints", "Battle", "GUI", "BP_BtlResultUIBase.uasset");
-
-            HexColorEditor.ColorOrder order = HexColorEditor.ColorOrder.BGRA;
-
-            HexColorEditor.WriteColor(filePath, 0x71294, config.BattleResultLeftSquare, order);
-            HexColorEditor.WriteColor(filePath, 0x7139D, config.BattleResultFontColor, order);
-            HexColorEditor.WriteColor(filePath, 0x713D2, config.BattleResultLeftZeroFontColor, order);
-        }
-        */
         private static void ApplyBPBtlResultUIBase(Config config, string modDirectory)
         {
             string filePath = Path.Combine(modDirectory,
@@ -789,7 +775,6 @@ namespace p3rpc.femc.HexEditing
         {
             ApplyBPBtlSkillList(config, modDirectory);
             ApplyBPBtlItemList(config, modDirectory);
-            //ApplyBattleResultUIBase(config, modDirectory);
             ApplyBPBtlGuiIcon(config, modDirectory);
             ApplyBPBtlGuiJyokyoHelp(config, modDirectory);
             ApplyBtlWaterCaustics(config, modDirectory);
